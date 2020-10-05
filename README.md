@@ -10,3 +10,7 @@ Search Result Screen with Movies list
 Movie Detail Screen
 ![Screenshot_1601923254](https://user-images.githubusercontent.com/11847480/95121212-50a37f80-0781-11eb-96dc-fbbc12636a85.png)
 
+
+
+Download the debug Apk here
+https://github.com/nirocknrk/Simple-Movie-Finder/files/5329584/Simple.Movie.Finder.apk.zip
