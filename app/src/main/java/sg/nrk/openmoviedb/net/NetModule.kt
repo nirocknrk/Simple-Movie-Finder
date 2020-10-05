@@ -4,6 +4,7 @@ import okhttp3.*
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import sg.nrk.openmoviedb.BuildConfig
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 
@@ -43,7 +44,7 @@ object NetModule {
             var request: Request = chain.request()
             val url = request.url
                 .newBuilder()
-                .addQueryParameter("apikey", "b9bd48a6").build()
+                .addQueryParameter("apikey", BuildConfig.API_KEY).build()
             request = request
                 .newBuilder()
                 .url(url)
