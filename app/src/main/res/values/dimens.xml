@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="movie_list_item_space">8dp</dimen>
+    <dimen name="progressbar_size">75dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>
